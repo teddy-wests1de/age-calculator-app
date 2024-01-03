@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="module.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+
+  </header>
+  <main class="main">
+    <section class="input-section">
+      <form action="/" class="form-bday">
+        <div class="form-inputs">
+          <div class="form-field">
+            <div class="date-label"><label for="day" class="date-label">DAY</label></div>
+            <div class="date-input"><input class="date" type="text" name="day" id="day" placeholder="DD"></div>
+            <div class="errors"><small class="error-text error"></small></div>
+          </div>
+          <div class="form-field">
+            <div class="date-label"><label for="month" class="date-label">MONTH</label></div>
+            <div class="date-input"><input class="date" type="text" name="month" id="month" placeholder="MM"></div>
+            <div class="errors"><small class="error-text error"></small></div>
+          </div>
+          <div class="form-field">
+            <div class="date-label"><label for="year" class="date-label">YEAR</label></div>
+            <div class="date-input"><input class="date" type="text" name="year" id="year" placeholder="YYYY"></div>
+            <div class="errors"><small class="error-text error"></small></div>
+          </div>
+        </div>
+        <div class="calculations">
+          <div class="divider"></div>
+          <div class="button-container"><button class="btn-calculate"><img src="./assets/images/icon-arrow.svg" alt="Arrow Button"></button></div>
+        </div>
+      </form>
+    </section>
+    <section class="output-section">
+      <div class="output-row">
+        <div class="output-number"></div>
+        <div class="output-text"><h1 class="title-text"><span class="number-text">--</span>years</h1></div>
+      </div>
+      <div class="output-row">
+        <div class="output-number"></div>
+        <div class="output-text"><h1 class="title-text"><span class="number-text">--</span>months</h1></div>
+      </div>
+      <div class="output-row">
+        <div class="output-number"></div>
+        <div class="output-text"><h1 class="title-text"><span class="number-text">--</span>days</h1></div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Elrico Landrew</a>.
+    </div>
+  </footer>
+  
+</body>
+</html>
